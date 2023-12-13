@@ -15,6 +15,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
 
 [[package]]
+name = "check_lang"
+version = "0.1.0"
+dependencies = [
+ "whatlang",
+]
+
+[[package]]
 name = "hashbrown"
 version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -22,13 +29,6 @@ checksum = "96282e96bfcd3da0d3aa9938bedf1e50df3269b6db08b4876d2da0bb1a0841cf"
 dependencies = [
  "ahash",
  "autocfg",
-]
-
-[[package]]
-name = "what_lang"
-version = "0.1.0"
-dependencies = [
- "whatlang",
 ]
 
 [[package]]
